@@ -1,0 +1,11 @@
+<div class="welcome">
+<h1>{{userinfo.given_name}}'s Dashboard</h1>
+
+<p>Registered User Information</p>
+<dl>
+  {{#each descriptionList}}
+    <dt>{{this.term}}</dt>
+    <dd>{{this.details}}</dd>
+  {{/each}}
+</dl>
+</div>
